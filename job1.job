@@ -1,0 +1,3 @@
+#this job use to upload the file
+type=command
+command=/opt/cdh5.7.6/hadoop-2.6.0-cdh5.7.6/bin/hdfs dfs -put /opt/datas/input.data  /user/huadian/azkaban/input/
